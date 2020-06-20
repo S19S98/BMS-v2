@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+	<title> Delete from Reading Section </title>
+	<style>
+		body{
+			background: lightblue;
+			margin: 0px;
+		}
+		header{
+			background: coral;
+			margin: 0px;
+			color: white;
+			text-align: center;
+			padding: 1px;
+		}
+		.nav{
+			background: darkblue;
+			color: white;
+			margin: 0px;
+		}
+		.nav ul{
+			list-style-type: none;
+			padding: 18px;
+			margin: 0px;
+			margin: 0px;
+			padding-top: 0px;
+		}
+		.nav ul li{
+			display: inline;
+			float: right;
+			padding-right: 15px;
+		}
+		.nav ul li a{
+			text-decoration: none;
+			color: white;
+		}
+		.nav ul li a:hover{
+			background: red;
+			padding: 0px 2px;
+		}
+		.nav ul li a:active{
+			background: green;
+			padding: 0px 2px;
+		}
+		.det{
+			text-align: center;
+		}
+		.container{
+			background: white;
+			border: solid black 1px;
+			border-radius: 5px;
+			width: 20%;
+			margin-top: 0%;
+			padding: 20px;
+			margin-left: 39%;
+		}
+		img{
+			border-radius: 5px;
+			width: 100%;
+		}
+		.credentials{
+			padding-left: 0px;
+			line-height: 1.8em;
+		}
+		input{
+			width: 100%;
+		}
+		select{
+			width: 100%;
+		}
+		.btn{
+			color: white;
+			text-align: center;
+			padding: 5px;
+		}
+		footer{
+			background: darkblue;
+			color: yellow;
+			padding: 2px;
+			text-align: center;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1> Book Management System </h1>
+	</header>
+	<div class="nav">
+		<ul>
+			<li> ABOUT US </li>
+			<li> CONTACT US </li>
+			<li><a href="home.html" target="_blank"> HOME </a></li>
+		</ul>
+	</div>
+	<div class="det">
+		<h2> Delete from your Current Reading List.</h2>
+		<h3> Please enter the below detail and click Delete:</h3>
+	</div>
+	<form action="Delete_Reading_Servlet">
+		<div class="container">
+			<div class = "im">
+				<img src="images/image.jpg">
+			</div>
+			<div class = "details">
+				<label> Book Name </label> <br>
+				<div class="inp">
+					<input type="text" name="bname" placeholder="Enter Book name..."><br>
+				</div>
+				<div class="btn">
+					<input style="background: red; color: white; font-size: 15px" type="submit" value="DELETE">
+				</div>
+			</div>
+		</div>
+	</form>
+	<footer>
+		Copyright &copy; VISION 2020
+	</footer>
+</body>
+</html>
