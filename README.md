@@ -22,3 +22,6 @@ You can login as an individual in the plaform and keep your own track records.
 
 This is an updated version of BMS v1. 
 It includes the option for Add, Delete Records from the database and the pages are modified too.
+
+
+//Update from local machine
